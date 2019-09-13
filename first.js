@@ -29,7 +29,7 @@ rl.on("line", function(line) {
 			bonus=2;
 		}
 		
-		count+=10**(len-1)*(3*parseInt((line/(10**len)))+bonus);
+		count+=10**(len-1)*(3*parseInt((number/(10**len)))+bonus);
 		
 		if(temp===3 || temp===6 || temp===9){
 			count+=(line%(10**(len-1))+1);
